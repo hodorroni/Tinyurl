@@ -1,4 +1,4 @@
-##How to Run the Application 
+## How to Run the Application
 Initialize Services: Open the project terminal and run the following command:
 
 docker-compose up -d
