@@ -1,7 +1,6 @@
-How to Run the Application
+##How to Run the Application
 Initialize Services: Open the project terminal and run the following command:
 
-bash
 docker-compose up -d
 This command initializes Redis, MongoDB, and Cassandra. The application will not run without these services.
 
@@ -9,14 +8,13 @@ Run the Application: After successful initialization, launch the application usi
 
 Access Swagger UI: Open your web browser and navigate to:
 
-bash
 http://localhost:8080/swagger-ui.html
 This will provide a visualization for the backend APIs.
 
 How to Use the Application
 Access User Creation: In the Swagger UI, locate the app-controller section.
 
-Create a User:
+##Create a User:
 
 Open the POST endpoint for /user.
 Enter a name in the provided field and click the Try it out button.
